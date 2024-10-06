@@ -1,0 +1,73 @@
+:root {
+  --light1: #5858dd;
+  --light2: #bcd4ff;
+  --light3: #ffd194;
+  --lightbg:#dfeefc;
+  --textlg1: #160000;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'constantia', serif;
+  background: linear-gradient(whitesmoke, var(--lightbg)) ;
+  color: var(--textlg1);
+  /* color: #fff; */
+  /* min-height: 5000px; */
+  /*background-image: url('../img/biji_kopi_penuh.jpg'); */
+}
+.navbar {
+  background-color: var(--light1);
+
+}
+.navbar-brand, .navbar_nav {
+  color: antiquewhite;
+}
+
+aside, #projects a {
+  background-color: var(--light2);
+
+}
+
+
+/* Media Queries */
+
+/* Laptop */
+@media(max-width:1366px) {
+
+}
+
+/* Tablet */
+@media(max-width:768px) {
+
+
+  
+  
+  /* Button */
+  .btn:before {
+    animation:backwards;
+    filter: blur(40%);
+  }
+}
+
+
+/* Mobile Phone */
+@media(max-width:450px) {
+  
+
+  
+
+}
